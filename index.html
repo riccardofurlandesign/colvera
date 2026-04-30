@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colvera Profumi — Strategia Social & Meta Ads 2026/2027</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --stone: #F4F1EA;
+    --stone-dark: #E5E0D3;
+    --ink: #1C1A16;
+    --ink-light: #3A3630;
+    --marble: #8A8273;
+    --marble-light: #B0A89A;
+    --gold: #B8893E;
+    --gold-light: #D2A968;
+    --phase1: #4A6B47;
+    --phase1-light: #EAF0E8;
+    --phase2: #4B3E78;
+    --phase2-light: #ECE8F4;
+    --phase3: #A06B2E;
+    --phase3-light: #F5EBDC;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--stone);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ---- HEADER ---- */
+  .header {
+    background: var(--ink);
+    color: white;
+    padding: 52px 48px 44px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: -80px; right: -80px;
+    width: 360px; height: 360px;
+    border-radius: 50%;
+    background: rgba(184,137,62,0.08);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; left: 100px;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    background: rgba(75,62,120,0.10);
+  }
+  .header-eyebrow {
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    margin-bottom: 14px;
+  }
+  .header-title {
+    font-family: var(--font-display);
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    color: white;
+    letter-spacing: -0.01em;
+  }
+  .header-subtitle {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 580px;
+    line-height: 1.7;
+  }
+  .header-meta {
+    margin-top: 32px;
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  .header-stat { text-align: left; }
+  .header-stat .num {
+    font-family: var(--font-display);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--gold-light);
+  }
+  .header-stat .lbl {
+    font-size: 11px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  /* ---- OVERVIEW FUNNEL BAR ---- */
+  .funnel-bar {
+    display: flex;
+    height: 6px;
+    margin: 0;
+  }
+  .fb-1 { flex: 3; background: var(--phase1); }
+  .fb-2 { flex: 2.5; background: var(--phase2); }
+  .fb-3 { flex: 2; background: var(--phase3); }
+
+  /* ---- MAIN CONTENT ---- */
+  .content { padding: 40px 48px 60px; max-width: 1280px; margin: 0 auto; }
+
+  /* ---- INTRO BLOCK ---- */
+  .intro-block {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--stone-dark);
+    padding: 28px 32px;
+    margin-bottom: 32px;
+  }
+  .intro-title {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+  .intro-lead {
+    font-size: 14px;
+    color: var(--ink-light);
+    line-height: 1.75;
+    max-width: 820px;
+    margin-bottom: 20px;
+  }
+  .intro-pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    margin-top: 22px;
+  }
+  .pillar-card {
+    background: var(--stone);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 16px;
+  }
+  .pillar-num {
+    font-family: var(--font-display);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .pillar-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .pillar-desc {
+    font-size: 12px;
+    color: var(--marble);
+    line-height: 1.5;
+  }
+
+  /* ---- LEVE STRATEGICHE ---- */
+  .levers-block {
+    background: linear-gradient(135deg, #F8F4ED, #F0EBE0);
+    border: 1px solid var(--gold-light);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 32px;
+  }
+  .levers-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--ink);
+  }
+  .levers-sub {
+    font-size: 12px;
+    color: var(--marble);
+    margin-bottom: 18px;
+    letter-spacing: 0.04em;
+  }
+  .levers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+  }
+  .lever {
+    background: rgba(255,255,255,0.7);
+    border: 1px solid rgba(184,137,62,0.25);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .lever-tag {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+  .lever-title {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: var(--ink);
+  }
+  .lever-desc {
+    font-size: 12px;
+    color: var(--ink-light);
+    line-height: 1.55;
+  }
+
+  /* ---- TIMELINE OVERVIEW ---- */
+  .timeline-overview {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--stone-dark);
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+  .to-header {
+    padding: 22px 26px 18px;
+    border-bottom: 1px solid var(--stone-dark);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .to-title-wrap { display: flex; align-items: baseline; gap: 12px; }
+  .to-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .to-sub {
+    font-size: 12px;
+    color: var(--marble);
+  }
+  .timeline-grid {
+    display: grid;
+    grid-template-columns: 140px repeat(12, 1fr);
+    font-size: 11px;
+  }
+  .tg-month {
+    padding: 10px 6px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--marble);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--stone-dark);
+    border-right: 1px solid var(--stone-dark);
+    font-size: 10px;
+  }
+  .tg-label {
+    padding: 12px 14px;
+    font-weight: 600;
+    color: var(--ink-light);
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    border-bottom: 1px solid var(--stone-dark);
+    letter-spacing: 0.03em;
+  }
+  .tg-cell {
+    border-right: 1px solid var(--stone-dark);
+    border-bottom: 1px solid var(--stone-dark);
+    padding: 5px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .tg-bar {
+    height: 14px;
+    border-radius: 3px;
+    width: 100%;
+  }
+  .bar-ph1 { background: var(--phase1); opacity: 0.85; }
+  .bar-ph1-hi { background: var(--phase1); opacity: 1; }
+  .bar-ph2 { background: var(--phase2); opacity: 0.85; }
+  .bar-ph2-hi { background: var(--phase2); opacity: 1; }
+  .bar-ph3 { background: var(--phase3); opacity: 0.85; }
+  .bar-ph3-hi { background: var(--phase3); opacity: 1; }
+  .bar-empty { background: transparent; }
+  .star-mark {
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 9px;
+    color: var(--gold);
+    line-height: 1;
+  }
+
+  /* ---- PHASE BLOCKS ---- */
+  .phase-block {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 32px;
+    border: 1px solid var(--stone-dark);
+  }
+  .phase-header {
+    padding: 24px 30px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .ph-1 .phase-header { background: var(--phase1); color: white; }
+  .ph-2 .phase-header { background: var(--phase2); color: white; }
+  .ph-3 .phase-header { background: var(--phase3); color: white; }
+
+  .phase-num {
+    font-family: var(--font-display);
+    font-size: 56px;
+    font-weight: 700;
+    opacity: 0.22;
+    line-height: 1;
+    margin-right: 4px;
+  }
+  .phase-title-wrap { flex: 1; min-width: 280px; }
+  .phase-tag {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    opacity: 0.75;
+    margin-bottom: 6px;
+  }
+  .phase-name {
+    font-family: var(--font-display);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .phase-desc {
+    font-size: 13px;
+    opacity: 0.85;
+    max-width: 540px;
+    line-height: 1.65;
+    font-weight: 300;
+  }
+  .phase-timing {
+    background: rgba(255,255,255,0.14);
+    border-radius: 8px;
+    padding: 12px 18px;
+    text-align: center;
+    min-width: 130px;
+    flex-shrink: 0;
+  }
+  .pt-label { font-size: 10px; opacity: 0.65; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 4px; }
+  .pt-value { font-family: var(--font-display); font-size: 15px; font-weight: 600; }
+
+  .phase-body { background: white; padding: 26px 30px; }
+
+  /* Step rows */
+  .step-row {
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 14px;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--stone-dark);
+    align-items: start;
+  }
+  .step-row:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .step-num {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 600;
+    flex-shrink: 0; margin-top: 2px;
+  }
+  .sn-1 { background: var(--phase1-light); color: var(--phase1); }
+  .sn-2 { background: var(--phase2-light); color: var(--phase2); }
+  .sn-3 { background: var(--phase3-light); color: var(--phase3); }
+
+  .step-content {}
+  .step-title { font-weight: 600; font-size: 15px; margin-bottom: 6px; color: var(--ink); line-height: 1.35; }
+  .step-timing-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+  }
+  .tb-1 { background: var(--phase1-light); color: var(--phase1); }
+  .tb-2 { background: var(--phase2-light); color: var(--phase2); }
+  .tb-3 { background: var(--phase3-light); color: var(--phase3); }
+  .step-body {
+    font-size: 13px;
+    color: var(--ink-light);
+    line-height: 1.7;
+  }
+
+  /* Content cards grid */
+  .content-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 12px;
+    margin-top: 14px;
+  }
+  .cc {
+    background: var(--stone);
+    border-radius: 8px;
+    padding: 14px 16px;
+    border: 1px solid var(--stone-dark);
+  }
+  .cc-type {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .cc-type-1 { color: var(--phase1); }
+  .cc-type-2 { color: var(--phase2); }
+  .cc-type-3 { color: var(--phase3); }
+  .cc-title { font-weight: 600; font-size: 13px; margin-bottom: 4px; color: var(--ink); }
+  .cc-desc { font-size: 12px; color: var(--marble); line-height: 1.55; }
+
+  /* Copy examples */
+  .copy-example {
+    background: var(--stone);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 16px;
+    margin-top: 12px;
+    font-size: 13px;
+    font-style: italic;
+    color: var(--ink-light);
+    line-height: 1.65;
+  }
+  .copy-label {
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+
+  /* KPI row */
+  .kpi-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+  }
+  .kpi-card {
+    flex: 1; min-width: 110px;
+    background: var(--stone);
+    border-radius: 8px;
+    padding: 12px 14px;
+    border: 1px solid var(--stone-dark);
+  }
+  .kpi-label { font-size: 10px; color: var(--marble); text-transform: uppercase; letter-spacing: 0.09em; margin-bottom: 4px; font-weight: 600; }
+  .kpi-val { font-family: var(--font-display); font-size: 17px; font-weight: 600; color: var(--ink); line-height: 1.2; }
+  .kpi-sub { font-size: 11px; color: var(--marble); margin-top: 2px; }
+
+  /* Seasonal callout */
+  .seasonal {
+    background: linear-gradient(135deg, #FFF8EE, #FFF1DC);
+    border: 1px solid #E5C987;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .seasonal-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; color: var(--gold); }
+  .seasonal-title { font-weight: 600; font-size: 14px; color: #6E521A; margin-bottom: 4px; }
+  .seasonal-body { font-size: 13px; color: #7E6328; line-height: 1.65; }
+
+  /* Transition logic */
+  .transition-box {
+    background: var(--stone);
+    border: 1px dashed var(--marble-light);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 22px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .tb-arrow {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid var(--stone-dark);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+    color: var(--ink);
+  }
+  .tb-text { font-size: 13px; color: var(--ink-light); line-height: 1.65; }
+  .tb-text strong { color: var(--ink); font-weight: 600; }
+
+  /* Budget guidance */
+  .budget-block {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--stone-dark);
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+  .bb-header {
+    padding: 22px 26px 18px;
+    border-bottom: 1px solid var(--stone-dark);
+  }
+  .bb-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .bb-sub { font-size: 12px; color: var(--marble); margin-top: 4px; line-height: 1.55; }
+  .bb-body { padding: 22px 26px; }
+  .bb-row {
+    display: grid;
+    grid-template-columns: 180px 1fr 70px;
+    gap: 14px;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--stone-dark);
+    font-size: 13px;
+  }
+  .bb-row:last-child { border-bottom: none; }
+  .bb-phase-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .bb-bar-wrap { background: var(--stone); border-radius: 4px; height: 9px; overflow: hidden; }
+  .bb-bar-fill { height: 100%; border-radius: 4px; }
+  .bb-pct { font-weight: 600; text-align: right; color: var(--ink-light); font-family: var(--font-display); font-size: 16px; }
+
+  /* Content map / pillars block */
+  .content-map {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--stone-dark);
+    padding: 26px 30px;
+    margin-bottom: 32px;
+  }
+  .cm-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .cm-sub {
+    font-size: 12px;
+    color: var(--marble);
+    margin-bottom: 22px;
+  }
+  .cm-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  .cm-cat {
+    background: var(--stone);
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .cm-cat-tag {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+  .cm-cat-title {
+    font-family: var(--font-display);
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.25;
+  }
+  .cm-cat-desc {
+    font-size: 12.5px;
+    color: var(--ink-light);
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+  .cm-cat-formats {
+    font-size: 11px;
+    color: var(--marble);
+    line-height: 1.5;
+    border-top: 1px solid var(--stone-dark);
+    padding-top: 8px;
+    margin-top: 6px;
+  }
+  .cm-cat-formats strong { color: var(--ink-light); font-weight: 600; }
+
+  /* Footer */
+  .footer {
+    background: var(--ink);
+    color: rgba(255,255,255,0.45);
+    padding: 24px 48px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .footer strong { color: rgba(255,255,255,0.75); font-weight: 600; }
+
+  /* Tester Mechanic Highlight */
+  .tester-highlight {
+    background: linear-gradient(135deg, var(--phase2), #5A4D8A);
+    color: white;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin: 22px 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    align-items: center;
+  }
+  .th-content {}
+  .th-tag {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    opacity: 0.75;
+    margin-bottom: 6px;
+  }
+  .th-title {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 6px;
+  }
+  .th-desc {
+    font-size: 13px;
+    opacity: 0.85;
+    line-height: 1.65;
+    max-width: 640px;
+  }
+  .th-badge {
+    background: rgba(255,255,255,0.18);
+    border-radius: 8px;
+    padding: 14px 18px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .th-badge-num {
+    font-family: var(--font-display);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .th-badge-lbl {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-top: 4px;
+  }
+
+  @media (max-width: 880px) {
+    .header { padding: 36px 24px 32px; }
+    .header-title { font-size: 32px; }
+    .content { padding: 28px 24px 40px; }
+    .footer { padding: 18px 24px; }
+    .timeline-grid { grid-template-columns: 100px repeat(12, 1fr); font-size: 9px; }
+    .tg-label { font-size: 9px; padding: 8px 6px; }
+    .tg-month { font-size: 8px; }
+    .bb-row { grid-template-columns: 130px 1fr 60px; }
+    .tester-highlight { grid-template-columns: 1fr; }
+  }
+
+  @media print {
+    body { background: white; }
+    .header { -webkit-print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <p class="header-eyebrow">Strategia Operativa · Social & Meta Ads</p>
+  <h1 class="header-title">Colvera Profumi<br>Piano contenuti & sponsorizzate</h1>
+  <p class="header-subtitle">Funnel completo per il lancio commerciale di <em>Butterflies Moor</em>: contenuti organici, campagne adv, tempistiche di attivazione e logica di passaggio tra fasi — dalla scoperta del brand al primo acquisto e all'upsell sul secondo flacone.</p>
+  <div class="header-meta">
+    <div class="header-stat"><div class="num">3</div><div class="lbl">Fasi di funnel</div></div>
+    <div class="header-stat"><div class="num">12</div><div class="lbl">Mesi pianificati</div></div>
+    <div class="header-stat"><div class="num">5</div><div class="lbl">Pilastri editoriali</div></div>
+    <div class="header-stat"><div class="num">4</div><div class="lbl">Picchi stagionali</div></div>
+    <div class="header-stat"><div class="num">1</div><div class="lbl">Prodotto, monografia</div></div>
+  </div>
+</div>
+<div class="funnel-bar"><div class="fb-1"></div><div class="fb-2"></div><div class="fb-3"></div></div>
+
+<!-- MAIN CONTENT -->
+<div class="content">
+
+  <!-- INTRO -->
+  <div class="intro-block">
+    <div class="intro-title">Il punto di partenza</div>
+    <p class="intro-lead">
+      Colvera Profumi è un brand di nicchia con un solo prodotto a catalogo, <em>Butterflies Moor</em>: un extrait de parfum al 20% ispirato alla Val Colvera e alla primavera. Questa singolarità — un prodotto, un territorio, una storia — è una forza, non un limite. Significa poter costruire una narrazione monografica densa, senza disperdere attenzione su una gamma. La strategia social non parte dal flacone: parte dall'emozione che il flacone vuole evocare. Il feed è un libro visivo; le sponsorizzate sono il ponte tra chi non ti conosce ancora e l'acquisto del primo profumo (o del tester).
+    </p>
+    <div class="intro-pillars">
+      <div class="pillar-card">
+        <div class="pillar-num">01</div>
+        <div class="pillar-title">Val Colvera & Territorio</div>
+        <div class="pillar-desc">Ogni fragranza è una cartolina olfattiva di un luogo reale.</div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">02</div>
+        <div class="pillar-title">Fragranza & Note</div>
+        <div class="pillar-desc">Educare e valorizzare l'extrait: testa, cuore, fondo.</div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">03</div>
+        <div class="pillar-title">Natura & Metamorfosi</div>
+        <div class="pillar-desc">La farfalla come simbolo: rinascita, nuovo inizio.</div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">04</div>
+        <div class="pillar-title">Made in Italy</div>
+        <div class="pillar-desc">Artigianalità, tappi in legno, basso impatto, Marco.</div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-num">05</div>
+        <div class="pillar-title">Lifestyle & Community</div>
+        <div class="pillar-desc">Il profumo nel quotidiano, persone reali, recensioni.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LEVE STRATEGICHE -->
+  <div class="levers-block">
+    <div class="levers-title">Le leve strategiche di Colvera</div>
+    <div class="levers-sub">Quattro asset unici che orientano tutto il funnel — vanno usati in modo coerente nei contenuti e nelle ads.</div>
+    <div class="levers-grid">
+      <div class="lever">
+        <div class="lever-tag">Leva 01</div>
+        <div class="lever-title">Tester 2ml + coupon 10€</div>
+        <div class="lever-desc">È la chiave del funnel. Riduce drasticamente l'attrito d'acquisto su un brand di nicchia sconosciuto, e poi richiama l'utente per il flacone pieno con uno sconto reale. Tutto il middle-of-funnel ruota attorno a questa meccanica.</div>
+      </div>
+      <div class="lever">
+        <div class="lever-tag">Leva 02</div>
+        <div class="lever-title">Storytelling territoriale</div>
+        <div class="lever-desc">La Val Colvera è il differenziatore narrativo: nessun competitor di nicchia ha un legame così specifico con un territorio italiano poco conosciuto. È materiale infinito per contenuti organici e per il top-of-funnel.</div>
+      </div>
+      <div class="lever">
+        <div class="lever-tag">Leva 03</div>
+        <div class="lever-title">Marco Palma · designer emozionale</div>
+        <div class="lever-desc">Il volto e la voce del brand. Un fondatore giovane (1996), che parla, che racconta, che si fa vedere. Questo umanizza il marchio e crea fiducia in un settore dove i brand sono spesso anonimi.</div>
+      </div>
+      <div class="lever">
+        <div class="lever-tag">Leva 04</div>
+        <div class="lever-title">Stagionalità marcata</div>
+        <div class="lever-desc">Butterflies Moor è esplicitamente primaverile. Il calendario va costruito sapendo che marzo–maggio è il picco naturale di vendite. Tutto il resto dell'anno serve a costruire awareness, audience da retargetizzare e momenti regalo.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIMELINE OVERVIEW -->
+  <div class="timeline-overview">
+    <div class="to-header">
+      <div class="to-title-wrap">
+        <span class="to-title">Calendario attivazioni · 12 mesi</span>
+        <span class="to-sub">★ = picco stagionale / budget rinforzato</span>
+      </div>
+      <div class="to-sub">Mag 2026 → Apr 2027</div>
+    </div>
+    <div class="timeline-grid">
+
+      <!-- months header -->
+      <div class="tg-month" style="border-left:none;background:var(--stone)"></div>
+      <div class="tg-month">Mag</div><div class="tg-month">Giu</div>
+      <div class="tg-month">Lug</div><div class="tg-month">Ago</div>
+      <div class="tg-month">Set</div><div class="tg-month">Ott</div>
+      <div class="tg-month">Nov</div><div class="tg-month">Dic</div>
+      <div class="tg-month">Gen</div><div class="tg-month">Feb</div>
+      <div class="tg-month">Mar</div><div class="tg-month">Apr</div>
+
+      <!-- FASE 1 rows -->
+      <div class="tg-label" style="background:var(--phase1-light);color:var(--phase1)">F1 · Awareness</div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1-hi"></div><span class="star-mark">★</span></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1" style="opacity:0.4"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1" style="opacity:0.4"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1-hi"></div><span class="star-mark">★</span></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1-hi"></div><span class="star-mark">★</span></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1" style="opacity:0.5"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1"></div><span class="star-mark">★</span></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1-hi"></div><span class="star-mark">★</span></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph1-hi"></div><span class="star-mark">★</span></div>
+
+      <!-- FASE 2 rows -->
+      <div class="tg-label" style="background:var(--phase2-light);color:var(--phase2)">F2 · Consideration</div>
+      <div class="tg-cell"><div class="tg-bar bar-empty"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2" style="opacity:0.5"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2" style="opacity:0.4"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-empty"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2" style="opacity:0.5"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph2-hi"></div></div>
+
+      <!-- FASE 3 rows -->
+      <div class="tg-label" style="background:var(--phase3-light);color:var(--phase3)">F3 · Conversion</div>
+      <div class="tg-cell"><div class="tg-bar bar-empty"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-empty"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-empty"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-empty"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph3" style="opacity:0.6"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph3"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph3-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph3-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph3" style="opacity:0.5"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph3-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph3-hi"></div></div>
+      <div class="tg-cell"><div class="tg-bar bar-ph3-hi"></div></div>
+    </div>
+  </div>
+
+  <!-- SEASONAL NOTE -->
+  <div class="seasonal">
+    <div class="seasonal-icon">★</div>
+    <div>
+      <div class="seasonal-title">4 picchi stagionali da presidiare con budget rinforzato</div>
+      <div class="seasonal-body">
+        <strong>Maggio 2026</strong> (lancio + coda primavera + festa della mamma) · <strong>Novembre–Dicembre</strong> (Natale, primo grande momento regalo) · <strong>Febbraio</strong> (San Valentino) · <strong>Marzo–Aprile 2027</strong> (PICCO MASSIMO: festa della donna, primavera, festa della mamma — è la stagione naturale di Butterflies Moor e va presidiata con il budget più alto dell'anno).
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FASE 1 ===== -->
+  <div class="phase-block ph-1">
+    <div class="phase-header">
+      <div class="phase-num">1</div>
+      <div class="phase-title-wrap">
+        <div class="phase-tag">Fase 1 · Top of funnel</div>
+        <div class="phase-name">Awareness & Brand Discovery</div>
+        <div class="phase-desc">Far conoscere Colvera a chi cerca eleganza, natura e introspezione. L'obiettivo non è vendere: è far entrare il brand nell'immaginario del target. Si raccontano luogo, fragranza e farfalla — non il prezzo.</div>
+      </div>
+      <div class="phase-timing">
+        <div class="pt-label">Attivazione</div>
+        <div class="pt-value">Maggio 2026</div>
+        <div class="pt-label" style="margin-top:8px">Durata</div>
+        <div class="pt-value">Sempre attiva</div>
+      </div>
+    </div>
+    <div class="phase-body">
+
+      <!-- Step 1 -->
+      <div class="step-row">
+        <div class="step-num sn-1">1</div>
+        <div class="step-content">
+          <div class="step-title">Reel manifesto — "Camminando in Val Colvera"</div>
+          <span class="step-timing-badge tb-1">Maggio 2026 · Prima accensione</span>
+          <div class="step-body">
+            Il primo contenuto sponsorizzato è un Reel di 15–25 secondi che porta lo spettatore dentro la Val Colvera all'alba: rugiada sul prato, una farfalla che si posa, le mani che sfiorano un fiore, il flacone in penombra appoggiato su una pietra. Nessuna voiceover, nessun testo prima di metà video. La fragranza non si nomina: si lascia che l'immagine lavori. Solo alla fine appare il logo Colvera e il nome "Butterflies Moor". Obiettivo: creare riconoscibilità visiva del brand prima ancora che curiosità d'acquisto.
+          </div>
+          <div class="content-cards" style="margin-top:12px">
+            <div class="cc">
+              <div class="cc-type cc-type-1">Formato</div>
+              <div class="cc-title">Reel 9:16 · 15–25 sec</div>
+              <div class="cc-desc">Solo riprese reali (no AI). Luce naturale alba/mattina. Audio originale lieve o silenzio + suoni di natura.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-1">Obiettivo Meta</div>
+              <div class="cc-title">Visualizzazioni video · Reach</div>
+              <div class="cc-desc">Massimizzare ThruPlay nel target. Non conversioni: in F1 il pixel deve solo capire chi è interessato.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-1">CTA</div>
+              <div class="cc-title">"Scopri Colvera"</div>
+              <div class="cc-desc">Link al sito (homepage), non al prodotto. L'utente deve avere lo spazio per esplorare la storia.</div>
+            </div>
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — Reel manifesto</div>
+            C'è una valle, sulle Prealpi friulane, dove la primavera arriva in silenzio.<br>
+            Da lì nasce un profumo che non grida: respira.<br>
+            Butterflies Moor — Colvera.
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step-row">
+        <div class="step-num sn-1">2</div>
+        <div class="step-content">
+          <div class="step-title">Carosello "Mappa emotiva" — la valle che diventa profumo</div>
+          <span class="step-timing-badge tb-1">Maggio–Giugno 2026 · +2 settimane dal Reel</span>
+          <div class="step-body">
+            Carosello di 5–6 slide che traduce visivamente la Val Colvera in note olfattive. Slide 1: paesaggio della valle. Slide 2: dettaglio rugiada → "Note di testa: aria fresca, gocce di rugiada". Slide 3: prato fiorito → "Cuore: mughetto, rosa, violetta, gelsomino". Slide 4: corteccia, muschio → "Fondo: legni preziosi, muschio di quercia". Slide 5: il flacone. Slide 6: claim. Educa il target ai termini tecnici (testa/cuore/fondo, extrait de parfum) senza diventare didascalico — è il <em>tono</em> del brand: poetico ma concreto.
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — Carosello mappa emotiva</div>
+            Quattro stagioni in una valle. Quattro strati in una fragranza.<br>
+            Butterflies Moor è un extrait al 20%: profondo, persistente, mai invadente.<br>
+            Scoprilo su colveraprofumi.com.
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step-row">
+        <div class="step-num sn-1">3</div>
+        <div class="step-content">
+          <div class="step-title">Reel "Volto del brand" — Marco Palma</div>
+          <span class="step-timing-badge tb-1">Giugno 2026 · Umanizzare il marchio</span>
+          <div class="step-body">
+            Un Reel di 25–35 secondi con Marco che cammina in Val Colvera, raccoglie un fiore, parla in seconda persona allo spettatore. Tre o quattro frasi, dirette, senza costruzione pubblicitaria. Questo formato funziona perché in un settore dove i brand di nicchia sono spesso anonimi, mostrare il fondatore costruisce fiducia immediata. Va usato come secondo o terzo contenuto, non come primo: serve già un minimo di riconoscibilità del marchio per dare contesto.
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — Reel Marco Palma</div>
+            Sono Marco. Ho creato Colvera per dare voce a una valle che ho dentro.<br>
+            Non vendo profumi: ti accompagno in un ritorno all'essenza.<br>
+            Conoscimi su colveraprofumi.com/chi-sono.
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step-row">
+        <div class="step-num sn-1">4</div>
+        <div class="step-content">
+          <div class="step-title">Pausa estiva strategica (luglio–agosto)</div>
+          <span class="step-timing-badge tb-1">Lug–Ago · Budget di mantenimento</span>
+          <div class="step-body">
+            In estate il budget di Awareness scende a un minimo di mantenimento. Il profumo è primaverile, l'attenzione del target è altrove (vacanze), e il CPM su Meta è gonfiato dalla concorrenza turistica. Si tiene viva una sola creatività (la più performante delle prime tre) per continuare ad alimentare il pixel e crescere l'audience da retargetizzare a settembre. Si usa questo periodo per produrre i contenuti autunnali e preparare il piano regalo Natale.
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="step-row">
+        <div class="step-num sn-1">5</div>
+        <div class="step-content">
+          <div class="step-title">Riaccensione di settembre — nuovo capitolo del libro visivo</div>
+          <span class="step-timing-badge tb-1">Settembre 2026 · Budget rinforzato</span>
+          <div class="step-body">
+            Settembre è strategico per due ragioni: l'attenzione torna, e si comincia a costruire l'audience che a novembre dovrà ricevere le ads di Natale. Si rilanciano i Reel più performanti del lancio, ma si introduce un secondo angolo narrativo: la <em>metamorfosi</em>. Il significato simbolico della farfalla — passaggio, nuovo inizio, ripartenza dopo una pausa — è perfettamente allineato al sentiment di settembre (rientro, nuovi propositi, nuovo capitolo).
+          </div>
+          <div class="content-cards" style="margin-top:12px">
+            <div class="cc">
+              <div class="cc-type cc-type-1">Nuovo angolo</div>
+              <div class="cc-title">"Rituale di rinascita"</div>
+              <div class="cc-desc">Il profumo come gesto di passaggio: inizio di un capitolo, di una stagione, di un nuovo te stesso.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-1">Nuovo target</div>
+              <div class="cc-title">Lookalike 1–3% da chi ha visto >50% del Reel</div>
+              <div class="cc-desc">Con i dati di maggio–giugno, si costruiscono lookalike audience. Ampliano la portata oltre gli interessi base.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-1">Behind the scenes</div>
+              <div class="cc-title">Come nasce un profumo Colvera</div>
+              <div class="cc-desc">Reel 30 sec sul processo: scelta materie prime, mixing, packaging artigianale (tappo legno). Rafforza percezione qualità.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="kpi-row">
+        <div class="kpi-card"><div class="kpi-label">KPI principale</div><div class="kpi-val">CPV (costo/visione)</div><div class="kpi-sub">Target &lt; 0,03€ su ThruPlay</div></div>
+        <div class="kpi-card"><div class="kpi-label">Secondario</div><div class="kpi-val">CTR al sito</div><div class="kpi-sub">Benchmark &gt; 1,2%</div></div>
+        <div class="kpi-card"><div class="kpi-label">Threshold F2</div><div class="kpi-val">>50% video view</div><div class="kpi-sub">Entra in audience F2</div></div>
+        <div class="kpi-card"><div class="kpi-label">Frequenza</div><div class="kpi-val">Max 3× / utente</div><div class="kpi-sub">Poi esclusione automatica</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRANSITION 1→2 -->
+  <div class="transition-box">
+    <div class="tb-arrow">→</div>
+    <div class="tb-text"><strong>Condizione di passaggio F1 → F2:</strong> ogni utente che ha visto oltre il 50% di un Reel awareness, oppure ha visitato il sito da una ads F1, entra automaticamente in audience F2. Le due fasi non sono sequenziali ma <em>parallele</em>: F1 alimenta F2 di continuo. Si esclude da F1 chi è già in F2 o F3 per non sprecare budget.</div>
+  </div>
+
+
+  <!-- TESTER HIGHLIGHT -->
+  <div class="tester-highlight">
+    <div class="th-content">
+      <div class="th-tag">Meccanica perno del funnel</div>
+      <div class="th-title">Il tester 2ml è il vero MOFU di Colvera</div>
+      <div class="th-desc">Vendere un extrait di nicchia di un brand sconosciuto a un cliente cold è difficile. Il tester 2ml è la soluzione: prezzo basso (barriera quasi nulla), regala un coupon di 10€ sul prossimo acquisto, e crea un'esperienza fisica che converte molto meglio di qualsiasi recensione. Tutta la Fase 2 deve spingere il tester come <em>primo gesto</em>, non il flacone da 50ml.</div>
+    </div>
+    <div class="th-badge">
+      <div class="th-badge-num">10€</div>
+      <div class="th-badge-lbl">Coupon prossimo<br>acquisto</div>
+    </div>
+  </div>
+
+
+  <!-- ===== FASE 2 ===== -->
+  <div class="phase-block ph-2">
+    <div class="phase-header">
+      <div class="phase-num">2</div>
+      <div class="phase-title-wrap">
+        <div class="phase-tag">Fase 2 · Middle of funnel</div>
+        <div class="phase-name">Consideration & Prova</div>
+        <div class="phase-desc">Trasformare chi ha visto Colvera in qualcuno che vuole provarla. La leva non è il flacone da 50ml: è il tester 2ml. Si introduce il prezzo, si raccontano le note, si fa percepire il valore — e si abbatte la barriera d'acquisto con la prova a basso costo.</div>
+      </div>
+      <div class="phase-timing">
+        <div class="pt-label">Attivazione</div>
+        <div class="pt-value">Fine Mag 2026</div>
+        <div class="pt-label" style="margin-top:8px">Audience</div>
+        <div class="pt-value">Warm</div>
+      </div>
+    </div>
+    <div class="phase-body">
+
+      <div class="step-row">
+        <div class="step-num sn-2">1</div>
+        <div class="step-content">
+          <div class="step-title">Carosello "Smonta la fragranza" — testa, cuore, fondo</div>
+          <span class="step-timing-badge tb-2">Fine Maggio 2026 · Prima ads F2</span>
+          <div class="step-body">
+            Carosello tecnico-emozionale che spiega cos'è un extrait de parfum al 20% e perché Butterflies Moor non è un eau de toilette qualunque. Una slide per ogni livello — testa/cuore/fondo — con micro-storia evocativa: aria fresca e rugiada sull'erba per la testa, mughetto e rosa per il cuore, legni e muschio di quercia per il fondo. L'ultima slide presenta il prodotto con il prezzo del 50ml E del tester 2ml, con CTA <em>"Inizia con il tester"</em>.
+          </div>
+          <div class="content-cards" style="margin-top:12px">
+            <div class="cc">
+              <div class="cc-type cc-type-2">Obiettivo Meta</div>
+              <div class="cc-title">Traffico al sito · Visualizzazioni pagina prodotto</div>
+              <div class="cc-desc">In F2 si ottimizza per chi clicca e arriva sulla scheda prodotto, non ancora per acquisto.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-2">Audience</div>
+              <div class="cc-title">Video viewers >50% + visitatori sito 30gg</div>
+              <div class="cc-desc">Solo chi ha già una traccia con il brand. Lookalike degli acquirenti tester se disponibili.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-2">Pagina di destinazione</div>
+              <div class="cc-title">Scheda prodotto Butterflies Moor</div>
+              <div class="cc-desc">Selezione formato 2ml in evidenza. La scheda deve far emergere il messaggio "tester + coupon 10€".</div>
+            </div>
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — Carosello tecnico</div>
+            Un extrait al 20% non è un profumo qualsiasi.<br>
+            È una composizione che dura, che cambia con te durante la giornata, che racconta una valle in tre tempi.<br>
+            Provalo prima di sceglierlo: il tester da 2ml ti regala 10€ sul tuo primo flacone.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num sn-2">2</div>
+        <div class="step-content">
+          <div class="step-title">Reel ingredient-focus — texture, materia, sensorialità</div>
+          <span class="step-timing-badge tb-2">Giugno · Settembre · Dicembre · Marzo</span>
+          <div class="step-body">
+            Reel verticali di 15–20 secondi con macro estremi degli ingredienti che compongono la fragranza: una goccia che cade sull'erba, un petalo di rosa che si apre, una corteccia con muschio di quercia, gelsomino in piena luce. Testo minimale in sovrimpressione che cita la nota corrispondente. Alla fine, il flacone. Funziona benissimo perché trasforma un prodotto astratto (un odore) in qualcosa di visivamente desiderabile, e si presta a essere prodotto a costo zero in stagione.
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — Reel ingrediente</div>
+            Senti l'erba bagnata di rugiada?<br>
+            È la prima nota di Butterflies Moor.<br>
+            Tutto ciò che indossi parla di te. Scegli con cura.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num sn-2">3</div>
+        <div class="step-content">
+          <div class="step-title">Stories prodotto-in-contesto — il flacone nella vita reale</div>
+          <span class="step-timing-badge tb-2">Sempre attiva, peso massimo Set–Dic</span>
+          <div class="step-body">
+            Set di Stories sponsorizzate che mostrano il flacone (e il tester) in contesti quotidiani curati: comodino con un libro, davanzale con luce naturale, asciugamano sull'erba in giardino. Il tono è quello del feed (luminoso, arioso, mai patinato), il copy è breve e diretto al "next step": vai sul sito, prova, scegli. Niente attori, niente set finti — solo gesti reali. Funziona soprattutto sul retargeting di chi ha già visto un Reel ma non ha ancora cliccato.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num sn-2">4</div>
+        <div class="step-content">
+          <div class="step-title">Carosello "Idee regalo" — Natale, San Valentino, Festa della donna</div>
+          <span class="step-timing-badge tb-2">Ott–Dic · Feb · Mar (3 finestre regalo)</span>
+          <div class="step-body">
+            Da ottobre si introduce esplicitamente il frame regalo. Colvera ha un vantaggio competitivo enorme nei tre momenti regalo principali: è italiano, artigianale, in fascia di prezzo accessibile come regalo "importante", ed è abbastanza di nicchia da sembrare una scelta accurata e non scontata. Tre finestre, tre angoli diversi: Natale → "il regalo che parla di te"; San Valentino → "una primavera anticipata"; Festa della donna → "un fiore che dura più a lungo".
+          </div>
+          <div class="content-cards" style="margin-top:12px">
+            <div class="cc">
+              <div class="cc-type cc-type-2">Natale (Ott–Dic)</div>
+              <div class="cc-title">"Il regalo non scontato"</div>
+              <div class="cc-desc">Frame: chi cerca un regalo ricercato senza tempi infiniti di scelta. CTA "ordina entro [data] per Natale".</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-2">San Valentino (Feb)</div>
+              <div class="cc-title">"Una primavera anticipata"</div>
+              <div class="cc-desc">Tono: leggero, mai stucchevole. Il profumo come promessa di tempo bello dopo l'inverno. Bundle 2ml + 50ml.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-2">Festa donna (Mar)</div>
+              <div class="cc-title">"Un fiore che dura"</div>
+              <div class="cc-desc">Pensato per regali tra amiche / in azienda. Si valorizza il significato simbolico delle note floreali.</div>
+            </div>
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — Natale</div>
+            A Natale puoi regalare l'ennesima candela. Oppure una valle.<br>
+            Butterflies Moor è un extrait de parfum artigianale, fatto in Friuli, in confezione regalo con tappo in legno.<br>
+            Spedizione gratuita oltre 70€. Ordina entro il 18 dicembre.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num sn-2">5</div>
+        <div class="step-content">
+          <div class="step-title">UGC + recensioni Google — social proof autentico</div>
+          <span class="step-timing-badge tb-2">Da Settembre · Sempre attiva</span>
+          <div class="step-body">
+            Le recensioni Google verificate (Trustindex) sono un asset prezioso e poco usato. Vanno trasformati in contenuti adv: una slide con una recensione testuale + foto reale del flacone. Funzionano perché in F2 l'utente ha già visto il brand, sa che esiste, ma ha bisogno di un'ultima rassicurazione prima di provare. Le parole di altri clienti italiani (con nome reale) lavorano molto meglio di qualsiasi copy del brand. Da affiancare ai contenuti UGC che arrivano spontaneamente dal canale (foto dei clienti, da repostare con permesso).
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — Recensione</div>
+            "Una fragranza che ricorda la primavera. Originale e Made in Italy."<br>
+            — Martina, recensione verificata Google.<br>
+            Provalo dal tester 2ml: 10€ di sconto sul tuo prossimo flacone.
+          </div>
+        </div>
+      </div>
+
+      <div class="kpi-row">
+        <div class="kpi-card"><div class="kpi-label">KPI principale</div><div class="kpi-val">CTR scheda prodotto</div><div class="kpi-sub">Target &gt; 1,8%</div></div>
+        <div class="kpi-card"><div class="kpi-label">Secondario</div><div class="kpi-val">Tempo medio sul sito</div><div class="kpi-sub">>45 sec = interesse reale</div></div>
+        <div class="kpi-card"><div class="kpi-label">KPI di prova</div><div class="kpi-val">Acquisti tester 2ml</div><div class="kpi-sub">Target CPA tester &lt; 12€</div></div>
+        <div class="kpi-card"><div class="kpi-label">Threshold F3</div><div class="kpi-val">Add to cart o tester</div><div class="kpi-sub">Entra in retargeting hot</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRANSITION 2→3 -->
+  <div class="transition-box">
+    <div class="tb-arrow">→</div>
+    <div class="tb-text"><strong>Condizione di passaggio F2 → F3:</strong> entrano in audience F3 (a) chi ha aggiunto al carrello e non ha completato (window 30 gg), (b) chi ha acquistato il tester 2ml (window 60 gg, per attivare il coupon 10€), (c) chi ha visitato la scheda prodotto >2 volte. Si esclude sempre chi ha già acquistato il flacone 50ml dalle campagne standard, per riservarlo all'upsell.</div>
+  </div>
+
+
+  <!-- ===== FASE 3 ===== -->
+  <div class="phase-block ph-3">
+    <div class="phase-header">
+      <div class="phase-num">3</div>
+      <div class="phase-title-wrap">
+        <div class="phase-tag">Fase 3 · Bottom of funnel</div>
+        <div class="phase-name">Conversion & Primo flacone</div>
+        <div class="phase-desc">Chiudere chi è già convinto. Il messaggio non costruisce più desiderio: rimuove l'ultimo attrito. Il coupon 10€ del tester, le recensioni, la spedizione gratuita oltre 70€, la garanzia di reso — tutto serve a far sentire la decisione come la naturale conclusione di un percorso, non come un salto nel vuoto.</div>
+      </div>
+      <div class="phase-timing">
+        <div class="pt-label">Attivazione</div>
+        <div class="pt-value">Settembre 2026</div>
+        <div class="pt-label" style="margin-top:8px">Audience</div>
+        <div class="pt-value">Hot retargeting</div>
+      </div>
+    </div>
+    <div class="phase-body">
+
+      <div class="step-row">
+        <div class="step-num sn-3">1</div>
+        <div class="step-content">
+          <div class="step-title">Retargeting "Hai provato. Ora indossalo." — convertire il tester in flacone</div>
+          <span class="step-timing-badge tb-3">Sempre attiva · Audience tester</span>
+          <div class="step-body">
+            Audience separata: chi ha acquistato il tester 2ml negli ultimi 60 giorni. Una creatività dedicata che ricorda esplicitamente il coupon di 10€ e accompagna alla scheda prodotto del 50ml. Questo è il segmento con il ROAS più alto in assoluto: ha già pagato, ha provato, ha già una promessa di sconto pendente. Il messaggio è di chiusura, non di vendita: "il coupon scade tra X giorni".
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — Retargeting tester</div>
+            Hai conosciuto Butterflies Moor.<br>
+            Il tuo coupon di 10€ ti aspetta sul flacone da 50ml.<br>
+            Spedizione gratuita oltre 70€ — il tuo primo profumo, già con uno sconto.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num sn-3">2</div>
+        <div class="step-content">
+          <div class="step-title">Dynamic Product Ads — la scheda esatta già visitata</div>
+          <span class="step-timing-badge tb-3">Da Settembre · Sempre attiva</span>
+          <div class="step-body">
+            Configurare il catalogo prodotto su Meta (anche con un solo SKU + sue varianti tester/50ml è possibile e consigliato). Le DPA mostrano automaticamente la variante esatta che l'utente ha visualizzato sul sito, riducendo enormemente il costo per acquisto. Per Colvera con un solo prodotto, la differenza la fa la <em>frequenza</em>: chi ha guardato il flacone vede ricomparire il flacone, chi ha guardato il tester vede ricomparire il tester. Copy minimale, il prodotto fa il lavoro.
+          </div>
+          <div class="copy-example">
+            <div class="copy-label">Copy esempio — DPA scheda 50ml</div>
+            È ancora lì.<br>
+            Butterflies Moor — 50ml, extrait de parfum.<br>
+            Aggiungilo al carrello in due tap.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num sn-3">3</div>
+        <div class="step-content">
+          <div class="step-title">Urgenza stagionale — Natale, San Valentino, Primavera</div>
+          <span class="step-timing-badge tb-3">Nov–Dic · Feb · Mar–Apr · Budget massimo</span>
+          <div class="step-body">
+            Nei tre picchi regalo si aggiunge un layer di urgenza reale (non manipolatoria) sui tempi di spedizione. Le ads mostrano il flacone con un messaggio temporale: "spedizione garantita entro Natale fino al 18 dicembre", "in tempo per il 14 febbraio se ordini entro lunedì". Per il <strong>picco di marzo–aprile</strong> (festa della donna + stagione naturale del profumo) si va con il budget più alto dell'anno: è il momento in cui il prodotto risuona di più, in cui le ads convertono meglio, in cui l'investimento ha il ROAS massimo. Tutto il funnel costruito da maggio dell'anno prima esiste per questo periodo.
+          </div>
+          <div class="content-cards" style="margin-top:12px">
+            <div class="cc">
+              <div class="cc-type cc-type-3">Natale (Nov–Dic)</div>
+              <div class="cc-title">Bundle regalo + cut-off temporale</div>
+              <div class="cc-desc">Bundle tester + 50ml come idea regalo a doppio livello. CTA con data limite spedizione.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-3">San Valentino (Feb)</div>
+              <div class="cc-title">Storytelling primavera anticipata</div>
+              <div class="cc-desc">Posizionare il profumo come gesto romantico contro l'inverno. Spedizione express in evidenza.</div>
+            </div>
+            <div class="cc">
+              <div class="cc-type cc-type-3">Mar–Apr 2027 ★</div>
+              <div class="cc-title">PICCO. Stagione naturale.</div>
+              <div class="cc-desc">Budget massimo dell'anno. Festa donna + festa mamma + primavera. Ogni leva del funnel converge qui.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num sn-3">4</div>
+        <div class="step-content">
+          <div class="step-title">Carrelli abbandonati — chiusura morbida</div>
+          <span class="step-timing-badge tb-3">Continua · Budget contenuto</span>
+          <div class="step-body">
+            Audience automatica: utenti che hanno aggiunto al carrello senza completare l'acquisto, finestra 7 giorni. Sequenza di tre creatività diverse a distanza di 2–3 giorni: prima rassicurazione (spedizione gratuita, reso, made in italy), seconda recensione (social proof), terza il prodotto secco con CTA diretta. Niente sconti aggiuntivi: Colvera non è un brand da promozioni, e svalutare il prodotto sui carrelli abbandonati è un errore strategico. Si vince con la fiducia, non con la pressione di prezzo.
+          </div>
+        </div>
+      </div>
+
+      <div class="step-row">
+        <div class="step-num sn-3">5</div>
+        <div class="step-content">
+          <div class="step-title">Audience clienti — preparare il secondo profumo (futuro)</div>
+          <span class="step-timing-badge tb-3">Continua · Budget ridotto</span>
+          <div class="step-body">
+            Chi ha acquistato il flacone da 50ml viene escluso da tutte le campagne F1/F2/F3 standard, ma inserito in un'audience separata per la community. Per ora — finché il catalogo è di un solo profumo — questa audience riceve solo contenuti di brand (storytelling, dietro le quinte, racconti dalla valle), per mantenere la relazione viva. Quando uscirà il secondo profumo, questa audience sarà il primo segmento da attivare: sono i clienti più caldi possibili, già fidelizzati, da convertire al lancio successivo con un costo minimo.
+          </div>
+        </div>
+      </div>
+
+      <div class="kpi-row">
+        <div class="kpi-card"><div class="kpi-label">KPI principale</div><div class="kpi-val">ROAS F3</div><div class="kpi-sub">Target &gt; 3,5×</div></div>
+        <div class="kpi-card"><div class="kpi-label">Secondario</div><div class="kpi-val">CPA flacone 50ml</div><div class="kpi-sub">Sostenibile in base a marginalità</div></div>
+        <div class="kpi-card"><div class="kpi-label">Conversione tester→50ml</div><div class="kpi-val">>15%</div><div class="kpi-sub">KPI critico del modello</div></div>
+        <div class="kpi-card"><div class="kpi-label">Frequenza</div><div class="kpi-val">Max 5× / 7 gg</div><div class="kpi-sub">Poi pausa 14 giorni</div></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CONTENT MAP ORGANIC -->
+  <div class="content-map">
+    <div class="cm-title">Piano editoriale organico — il feed come libro visivo</div>
+    <div class="cm-sub">In parallelo alle sponsorizzate, il feed organico costruisce profondità di brand. 4 tipologie di post in rotazione, sui 5 pilastri editoriali.</div>
+    <div class="cm-grid">
+      <div class="cm-cat">
+        <div class="cm-cat-tag">Tipo 01</div>
+        <div class="cm-cat-title">Sensazioni</div>
+        <div class="cm-cat-desc">Post emozionali e poetici che raccontano atmosfere, stati d'animo, l'immaginario del brand. Niente prodotto in primo piano.</div>
+        <div class="cm-cat-formats"><strong>Formati:</strong> foto paesaggio · grafiche con estratti testuali · Reel atmosferici</div>
+      </div>
+      <div class="cm-cat">
+        <div class="cm-cat-tag">Tipo 02</div>
+        <div class="cm-cat-title">Il profumo</div>
+        <div class="cm-cat-desc">Post di prodotto: dettagli flacone, packaging, focus tecnico sulle note. Educa il pubblico al linguaggio della profumeria.</div>
+        <div class="cm-cat-formats"><strong>Formati:</strong> foto still life · macro ingredienti · caroselli tecnici testa/cuore/fondo</div>
+      </div>
+      <div class="cm-cat">
+        <div class="cm-cat-tag">Tipo 03</div>
+        <div class="cm-cat-title">Persone</div>
+        <div class="cm-cat-desc">Post emozionali con persone reali (clienti, Marco, amici del brand) e luoghi della Val Colvera. Costruisce community e senso di appartenenza.</div>
+        <div class="cm-cat-formats"><strong>Formati:</strong> ritratti · UGC repostati · interviste brevi a Marco</div>
+      </div>
+      <div class="cm-cat">
+        <div class="cm-cat-tag">Tipo 04</div>
+        <div class="cm-cat-title">Il profumo nella vita reale</div>
+        <div class="cm-cat-desc">Lifestyle/contesto: il flacone indossato in momenti quotidiani, reali. È il livello più "commerciale" del feed e va dosato.</div>
+        <div class="cm-cat-formats"><strong>Formati:</strong> Stories prodotto-in-contesto · Reel "una giornata con Butterflies Moor"</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- BUDGET GUIDANCE -->
+  <div class="budget-block">
+    <div class="bb-header">
+      <div class="bb-title">Ripartizione budget consigliata per fase</div>
+      <div class="bb-sub">Indicativa — da adattare in base ai risultati. Nei mesi di picco (Nov–Dic per Natale, Feb per S. Valentino, Mar–Apr 2027 per la primavera) il budget complessivo cresce del 40–60% e si ribilancia leggermente verso F2/F3.</div>
+    </div>
+    <div class="bb-body">
+      <div class="bb-row" style="font-weight:600;color:var(--marble);font-size:11px;text-transform:uppercase;letter-spacing:0.07em">
+        <div>Fase</div><div>Distribuzione</div><div>% budget</div>
+      </div>
+      <div class="bb-row">
+        <div><span class="bb-phase-dot" style="background:var(--phase1)"></span>F1 · Awareness</div>
+        <div><div class="bb-bar-wrap"><div class="bb-bar-fill" style="width:50%;background:var(--phase1)"></div></div></div>
+        <div class="bb-pct">50%</div>
+      </div>
+      <div class="bb-row">
+        <div><span class="bb-phase-dot" style="background:var(--phase2)"></span>F2 · Consideration / Tester</div>
+        <div><div class="bb-bar-wrap"><div class="bb-bar-fill" style="width:30%;background:var(--phase2)"></div></div></div>
+        <div class="bb-pct">30%</div>
+      </div>
+      <div class="bb-row">
+        <div><span class="bb-phase-dot" style="background:var(--phase3)"></span>F3 · Conversion</div>
+        <div><div class="bb-bar-wrap"><div class="bb-bar-fill" style="width:20%;background:var(--phase3)"></div></div></div>
+        <div class="bb-pct">20%</div>
+      </div>
+    </div>
+    <div class="bb-body" style="border-top: 1px solid var(--stone-dark); padding-top: 18px;">
+      <div style="font-size:12px; color:var(--marble); line-height:1.7;">
+        <strong style="color:var(--ink); font-weight:600;">Logica della ripartizione.</strong> Colvera è un brand giovane con un solo prodotto: serve volume in cima al funnel per costruire l'audience da retargetizzare nei mesi seguenti. Per i primi 3 mesi (mag–lug) F1 può salire anche al 65% del budget, perché F2 e F3 non hanno ancora dati a sufficienza. Da settembre l'equilibrio si normalizza. Nei picchi regalo F3 può temporaneamente arrivare al 35% perché la audience hot è sufficientemente grande e converte bene.
+      </div>
+    </div>
+  </div>
+
+  <!-- SEQUENZA TEMPORALE - 3 FASI ATTIVAZIONE -->
+  <div class="content-map">
+    <div class="cm-title">Sequenza temporale di attivazione</div>
+    <div class="cm-sub">Come si entra a regime nei primi tre mesi.</div>
+    <div class="cm-grid">
+      <div class="cm-cat">
+        <div class="cm-cat-tag">Mese 1 · Maggio 2026</div>
+        <div class="cm-cat-title">Apertura del libro</div>
+        <div class="cm-cat-desc">Si attivano in parallelo F1 (awareness, budget al 65%) e F2 base (carosello note tecniche, budget al 25%). F3 ancora ferma: serve raccogliere dati. Pixel a regime, catalogo Meta configurato, prime audience custom in costruzione.</div>
+      </div>
+      <div class="cm-cat">
+        <div class="cm-cat-tag">Mese 2 · Giugno 2026</div>
+        <div class="cm-cat-title">Primo retargeting</div>
+        <div class="cm-cat-desc">F1 stabile, F2 cresce a 35%, parte la prima F3 leggera (carrelli abbandonati + visitatori scheda prodotto). Si testano 2–3 creatività F2 differenti per trovare la più performante. Si comincia a leggere chi è davvero interessato.</div>
+      </div>
+      <div class="cm-cat">
+        <div class="cm-cat-tag">Mese 3 · Luglio 2026</div>
+        <div class="cm-cat-title">Lettura dati & ottimizzazione</div>
+        <div class="cm-cat-desc">Pausa estiva strategica. Budget complessivo dimezzato. Si tiene viva una sola creatività F1 e una sola F2. Si analizzano i dati raccolti per ricalibrare la riapertura di settembre. È il mese in cui si producono i contenuti per Natale.</div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /content -->
+
+<div class="footer">
+  <div><strong>Colvera Profumi</strong> — Strategia Social & Meta Ads · Documento operativo</div>
+  <div>info@colveraprofumi.com · colveraprofumi.com</div>
+</div>
+
+</body>
+</html>
